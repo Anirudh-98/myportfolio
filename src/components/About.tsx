@@ -44,6 +44,12 @@ export default function About() {
           </svg>
           {profile.email}
         </a>
+        <a href={`tel:${profile.phone.tel}`} className="label flex items-center gap-1.5 !text-ink hover:!text-accent">
+          <svg viewBox="0 0 16 16" aria-hidden className="size-4 fill-none stroke-current stroke-[1.25]" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M5.6 2.5H3.8a1.3 1.3 0 0 0-1.3 1.4 10.5 10.5 0 0 0 9.6 9.6 1.3 1.3 0 0 0 1.4-1.3v-1.8l-2.6-1.1-1.3 1.3a7 7 0 0 1-3.1-3.1l1.3-1.3z" />
+          </svg>
+          {profile.phone.display}
+        </a>
         <a
           href={profile.previously.href}
           target="_blank"

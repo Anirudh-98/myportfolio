@@ -50,6 +50,8 @@ export const profile = {
   /** The company you founded, shown under the hero text. */
   previously: { label: 'Viscano', href: 'https://www.viscano.com', projects: '20+' },
   email: 'teamviscano@gmail.com',
+  /** `display` is what visitors see; `tel` is what the phone dials. */
+  phone: { display: '+91 63013 61466', tel: '+916301361466' },
   socials: {
     linkedin: 'https://www.linkedin.com/',
     behance: 'https://www.behance.net/',
